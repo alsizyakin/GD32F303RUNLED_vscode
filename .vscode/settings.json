@@ -1,0 +1,9 @@
+{
+    "cortex-debug.gdbPath": "/usr/bin/gdb-multiarch",//arm-none-eabi-gdb for other platforms
+    "cortex-debug.objdumpPath": "/usr/bin/arm-none-eabi-objdump",
+    "files.associations": {
+        "system_gd32f30x.h": "c",
+        "main.h": "c"
+    },
+    
+}

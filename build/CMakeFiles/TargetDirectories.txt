@@ -1,0 +1,3 @@
+/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/build/CMakeFiles/GD32F303_running_led.dir
+/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/build/CMakeFiles/edit_cache.dir
+/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/build/CMakeFiles/rebuild_cache.dir

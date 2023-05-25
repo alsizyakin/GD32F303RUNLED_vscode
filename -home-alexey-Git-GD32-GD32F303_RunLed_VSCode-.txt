@@ -1,0 +1,1 @@
+/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/GD32F30x_HD.svd

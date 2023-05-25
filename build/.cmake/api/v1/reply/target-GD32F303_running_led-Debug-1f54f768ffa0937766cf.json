@@ -1,0 +1,550 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "GD32F303_running_led.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"target_link_directories",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfloat-abi=softfp"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-builtin"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fms-extensions"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-O1"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ggdb"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "GD32F30X_HD"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "GD32F30x"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Drivers/CMSIS"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Drivers/CMSIS/GD/GD32F30x/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Drivers/CMSIS/GD/GD32F303/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Drivers/CMSIS/DSP/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Drivers/GD32F30x_standard_peripheral/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Peripherals"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Utilities"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Utilities/LCD"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Motor_Control"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		}
+	],
+	"id" : "GD32F303_running_led::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mcpu=cortex-m4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfloat-abi=softfp",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-flto",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-specs=nano.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-T",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/gd32.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-ggdb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-L/home/alexey/Git/GD32/GD32F303_RunLed_VSCode/Drivers/CMSIS/DSP/Lib/GCC",
+				"role" : "libraryPath"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "GD32F303_running_led",
+	"nameOnDisk" : "GD32F303_running_led.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/CMSIS/DSP/Source/arm_common_tables.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/CMSIS/DSP/Source/arm_cos_f32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/CMSIS/DSP/Source/arm_sin_f32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_bkp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_ctc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dbg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_enet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fmc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_pmu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rcu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_sdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_wwdgt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripherals/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Peripherals/rcu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Src/gd32f30x_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Src/start.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Src/system_gd32f30x.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Utilities/delay.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
